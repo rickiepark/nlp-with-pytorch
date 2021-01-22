@@ -10,3 +10,4 @@ numpy
 requests
 torch
 torchvision
+scikit-learn
