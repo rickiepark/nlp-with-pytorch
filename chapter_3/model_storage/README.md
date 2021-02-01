@@ -1,3 +1,3 @@
-# Model Storage
+# 모델 저장소
 
-The notebooks are set to save to this directory.  Each notebook subdir has a symbolic link to here.
+노트북마다 서브 폴더를 만들어 모델을 저장합니다.
