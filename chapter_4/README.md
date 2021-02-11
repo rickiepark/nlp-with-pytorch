@@ -20,47 +20,49 @@
  
 ### 해당되는 책의 코드
 
-- Example 4-1. Multilayer perceptron using PyTorch
-- Example 4-2. An example instantiation of an MLP
-- Example 4-3. Testing the MLP with random inputs
-- Example 4-4. Producing probabilistic outputs with a multilayer perceptron classifier (notice the apply_softmax = True option)
-- Example 4-13. MLP with dropout
-- Example 4-14. Artificial data and using a Conv1d class
-- Example 4-15. The iterative application of convolutions to data
-- Example 4-16. Two additional methods for reducing to feature vectors
-- Example 4-22. Using a Conv1D layer with batch normalization
+- 코드 4-1. 파이토치를 사용한 다층 퍼셉트론
+- 코드 4-2. MLP 객체 생성
+- 코드 4-3. 랜덤한 입력으로 MLP 테스트하기
+- 코드 4-4. 다층 퍼셉트론 분류기로 확률 출력하기 (apply_softmax = True)
+- 코드 4-13. 드롭아웃을 적용한 MLP
+- 코드 4-14. 인공 데이터와 Conv1d 클래스
+- 코드 4-15. 데이터에 반복적으로 적용한 합성곱
+- 코드 4-16. 특성 벡터를 줄이기 위한 다른 두 가지 방법
+- 코드 4-22. 배치 정규화와 Conv1D 층 사용하기
 
-## Example: Surname Classification with an MLP
+## 예제: MLP로 성씨 분류하기
 
-### Notebooks
+### 노트북
 
-- (for dataset preprocessing) [munging_surname_dataset](4_2_mlp_surnames/munging_surname_dataset.ipynb)
+* 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
+
+- (데이터셋 전처리) [munging_surname_dataset](4_2_mlp_surnames/munging_surname_dataset.ipynb)
 - [4_2_Classifying_Surnames_with_an_MLP](4_2_mlp_surnames/4_2_Classifying_Surnames_with_an_MLP.ipynb)
  
-### Corresponding examples in the book
+### 해당되는 책의 코드
 
+- 코드 4-5. `SurnameDataset.__getitem__()` 구현
+- 코드 4-6. `SurnameVectorizer` 구현
+- 코드 4-7. MLP 기반의 `SurnameClassifier`
+- 코드 4-8. MLP 기반의 성씨 분류기를 위한 하이퍼파라미터와 프로그램 설정
+- 코드 4-9. 데이터셋, 모델, 손실, 옵티마이저 생성
+- 코드 4-10. 훈련 반복 코드 중 일부
+- 코드 4-11. 기존 모델(분류기)을 사용한 추론: 주어진 이름에 대한 국적 예측하기
+- 코드 4-12. 최상위 k 개 국적 예측하기
 
-- Example 4-5. Implementing `SurnameDataset.__getitem__()`
-- Example 4-6. Implementing SurnameVectorizer
-- Example 4-7. The SurnameClassifier using an MLP
-- Example 4-8. Hyperparameters and program options for the MLP-based Yelp review classifier
-- Example 4-9. Instantiating the dataset, model, loss, and optimizer
-- Example 4-10. A snippet of the training loop
-- Example 4-11. Inference using an existing model (classifier): Predicting the nationality given a name
-- Example 4-12. Predicting the top-k nationalities
+## 예제: CNN으로 성씨 분류하기
 
-## Example: Classifying Surnames by Using a CNN
+### 노트북
 
-### Notebooks
+* 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
 
-- (for dataset preprocessing) [munging_surname_dataset](4_4_cnn_surnames/munging_surname_dataset.ipynb)
+- (데이터셋 전처리) [munging_surname_dataset](4_4_cnn_surnames/munging_surname_dataset.ipynb)
 - [4_4_Classifying_Surnames_with_a_CNN](4_4_cnn_surnames/4_4_Classifying_Surnames_with_a_CNN.ipynb)
  
-### Corresponding examples in the book
+### 해당되는 책의 코드
 
-
-- Example 4-17. SurnameDataset modified for passing the maximum surname length
-- Example 4-18. Implementing the SurnameVectorizer for CNNs
-- Example 4-19. The CNN-based SurnameClassifier
-- Example 4-20. Input arguments to the CNN surname classifier
-- Example 4-21. Using the trained model to make predictions
+- 코드 4-17. 최대 성씨 길이를 전달하기 위한 `SurnameDataset`
+- 코드 4-18. CNN을 위한 `SurnameVectorizer` 구현
+- 코드 4-19. CNN 기반의 `SurnameClassifier`
+- 코드 4-20. CNN 성씨 분류기의 입력 매개변수
+- 코드 4-21. 훈련된 모델로 예측 만들기
