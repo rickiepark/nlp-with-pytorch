@@ -34,7 +34,7 @@
 
 ### 노트북
 
-* 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
+이 예제는 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
 
 - (데이터셋 전처리) [munging_surname_dataset](4_2_mlp_surnames/munging_surname_dataset.ipynb)
 - [4_2_Classifying_Surnames_with_an_MLP](4_2_mlp_surnames/4_2_Classifying_Surnames_with_an_MLP.ipynb)
@@ -54,7 +54,7 @@
 
 ### 노트북
 
-* 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
+이 예제는 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
 
 - (데이터셋 전처리) [munging_surname_dataset](4_4_cnn_surnames/munging_surname_dataset.ipynb)
 - [4_4_Classifying_Surnames_with_a_CNN](4_4_cnn_surnames/4_4_Classifying_Surnames_with_a_CNN.ipynb)
