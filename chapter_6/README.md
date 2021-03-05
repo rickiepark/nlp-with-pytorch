@@ -6,7 +6,7 @@
 
 이 예제는 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
 
-- (for dataset preprocessing) [Chapter-6-Munging-Surname-Dataset](classifying-surnames/Chapter-6-Munging-Surname-Dataset.ipynb)
+- (데이터 전처리 노트북) [Chapter-6-Munging-Surname-Dataset](classifying-surnames/Chapter-6-Munging-Surname-Dataset.ipynb)
 - [Chapter-6-Surname-Classification-with-RNNs](classifying-surnames/Chapter-6-Surname-Classification-with-RNNs.ipynb)
 
 ### 해당되는 책의 코드
