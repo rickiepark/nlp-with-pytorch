@@ -1,39 +1,41 @@
-# Chapter 8
+# 8장
 
-## In Text Examples
+## 본문 코드
 
-### Notebooks
+### 노트북
 
 - [8_PackedSequence_example](8_PackedSequence_example.ipynb)
 
-### Corresponding examples in the book
+### 해당되는 책의 코드
 
-- Example 8-6. A simple demonstration of packed_padded_sequences and pad_packed_sequences
+- 코드 8-6. pack_padded_sequence와 pad_packed_sequence의 간단한 사용 예
 
 
 ##  Example: Neural Machine Translation
 
-### Notebooks
+### 노트북
 
-- (for dataset preprocessing) [8_5_nmt_munging](8_5_NMT/8_5_nmt_munging.ipynb)
+이 예제는 전처리된 데이터를 제공하므로 따로 전처리 노트북을 수행할 필요가 없습니다.
+
+- (데이터 전처리 노트북) [8_5_nmt_munging](8_5_NMT/8_5_nmt_munging.ipynb)
 - [8_5_NMT_No_Sampling](8_5_NMT/8_5_NMT_No_Sampling.ipynb)
 
-### Corresponding examples in the book
+### 해당되는 책의 코드
 
-- Example 8-1. Constructing the NMTVectorizer
-- Example 8-2. The vectorization functions in the NMTVectorizer
-- Example 8-3. Generating minibatches for the NMT example
-- Example 8-4. The NMTModel encapsulates and coordinates the encoder and decoder in a single forward() method
-- Example 8-5. The encoder embeds the source words and extracts features with a biGRU
-- Example 8-7. The NMTDecoder constructs a target sentence from the encoded source sentence
-- Example 8-8. Attention mechanism that does element-wise multiplication and summing more explicitly
+- 코드 8-1. NMTVectorizer 클래스
+- 코드 8-2. NMTVectorizer의 벡터 변환을 위한 메서드
+- 코드 8-3. NMT 예제를 위한 미니배치 생성하기
+- 코드 8-4. NMTModel은 하나의 forward() 메서드에 인코더와 디코더를 캡슐화하여 관리합니다.
+- 코드 8-5. 양방향 GRU로 단어를 임베딩하고 특성을 추출하는 인코더
+- 코드 8-7. 인코딩된 소스 문장에서 타깃 문장을 만드는 NMTDecoder
+- 코드 8-8. 원소별 곱셈과 덧셈을 수행하는 어텐션 메커니즘
 
 ## NMT using sampling
 
-### Notebooks
+### 노트북
 
 - [8_5_NMT_scheduled_sampling](8_5_NMT/8_5_NMT_scheduled_sampling.ipynb)
 
-### Corresponding examples in the book
+### 해당되는 책의 코드
 
-- Example 8-9. The decoder with a sampling procedure (in bold) built into the forward pass
+- 코드 8-9. 정방향 계산에 샘플링 과정(굵은체)을 가진 디코더
