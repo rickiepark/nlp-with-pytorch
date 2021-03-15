@@ -19,6 +19,7 @@
 
 - (데이터 전처리 노트북) [8_5_nmt_munging](8_5_NMT/8_5_nmt_munging.ipynb)
 - [8_5_NMT_No_Sampling](8_5_NMT/8_5_NMT_No_Sampling.ipynb)
+- [8_5_NMT_scheduled_sampling](8_5_NMT/8_5_NMT_scheduled_sampling.ipynb)
 
 ### 해당되는 책의 코드
 
