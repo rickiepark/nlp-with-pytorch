@@ -7,7 +7,7 @@
 에러타는 [블로그](https://tensorflow.blog/nlp-with-pytorch/)를 참고해 주세요. 이 책의 코드는 최신 사이킷런, 파이토치를 사용하며 구글 코랩(Colab)을 사용해 무료로 실행할 수 있습니다.
 
 
-Table of Contents
+목차
 =================
 
 <!--ts-->
